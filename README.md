@@ -2,7 +2,6 @@
 
 ### 🎯 Project Objective
 The goal of this project was to analyze **real-world requirements** for Junior Data Analyst positions in Poland.
-I wanted to verify the common belief that *"Python has replaced Excel"* using hard data from the market, rather than relying on intuition.
 
 ### 🖼️ Final Dashboard
 ![Dashboard Preview](Dashboard_Analiza_2026_Final.png)
@@ -39,4 +38,10 @@ Since the target website uses advanced anti-bot protection, this scraper connect
 **1. Prerequisites**
 Install the required libraries:
 ```bash
+**2. Prepare Chrome**
+Close all Chrome windows. Open your terminal (CMD) and launch Chrome with the debugging port enabled:
+```bash
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\selenium\ChromeProfile"
 pip install -r requirements.txt
+
+Krzysztof Kulwicki - Aspiring Data Analyst. Connect with me on LinkedIn
