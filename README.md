@@ -49,7 +49,8 @@ pip install -r requirements.txt
 Step 1: Run 1_link_harvester.py to collect job URLs.
 
 Step 2: Run 2_skill_extractor.py to analyze the descriptions and generate the CSV dataset.
-**👨‍💻 Author**
-Krzysztof Kulwicki - Aspiring Data Analyst. 
-Connect with me on https://www.linkedin.com/in/krzysztof-kulwicki-215a272b2/
+###👨‍💻 Author
+*Krzysztof Kulwicki - Aspiring Data Analyst. 
+*Connect with me on https://www.linkedin.com/in/krzysztof-kulwicki-215a272b2/
+
 
