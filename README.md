@@ -37,11 +37,16 @@ Since the target website uses advanced anti-bot protection, this scraper connect
 
 **1. Prerequisites**
 Install the required libraries:
-```bash
-**2. Prepare Chrome**
-Close all Chrome windows. Open your terminal (CMD) and launch Chrome with the debugging port enabled:
-```bash
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\selenium\ChromeProfile"
+
 pip install -r requirements.txt
 
-Krzysztof Kulwicki - Aspiring Data Analyst. Connect with me on LinkedIn
+**2. Prepare Chrome**
+ Close all Chrome windows. Open your terminal (CMD) and launch Chrome with the debugging port enabled:
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="C:\selenium\ChromeProfile"
+
+**3. Run the Scrapers**
+   
+Step 1: Run 1_link_harvester.py to collect job URLs.
+Step 2: Run 2_skill_extractor.py to analyze the descriptions and generate the CSV dataset.
+👨‍💻 Author
+Krzysztof Kulwicki - Aspiring Data Analyst Connect with me on https://www.linkedin.com/in/krzysztof-kulwicki-215a272b2/
