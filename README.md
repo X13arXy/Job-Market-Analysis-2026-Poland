@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 **2. Prepare Chrome**
  Close all Chrome windows. Open your terminal (CMD) and launch Chrome with the debugging port enabled:
-"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="%USERPROFILE%\Desktop\chrome_projekt_data"
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --remote-debugging-port=9222 --user-data-dir="%USERPROFILE%\Desktop\chrome_projekt_data".
 A new Chrome window will appear. Do not close it! The script needs this specific window to operate.
 **3. Run the Scrapers**
    
@@ -53,6 +53,7 @@ Step 2: Run 2_skill_extractor.py to analyze the descriptions and generate the CS
 👨‍💻 Author
 Krzysztof Kulwicki - Aspiring Data Analyst. 
 Connect with me on https://www.linkedin.com/in/krzysztof-kulwicki-215a272b2/
+
 
 
 
